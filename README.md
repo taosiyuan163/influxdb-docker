@@ -2,7 +2,7 @@
 Created by siyuan.tao on 2017-3-22
 
 
-# submit a script on activated node
+# example:submit a script on activated node
 docker run  --privileged=true \
             --net=host \
             -e CHK_INFLUXDB_INTERVAL=2 \
